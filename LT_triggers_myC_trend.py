@@ -9,7 +9,7 @@ import time
 from datetime import datetime
 
 # Serielle Schnittstelle konfigurieren
-ser = serial.Serial('COM5', 115200, timeout=3)
+ser = serial.Serial('COM3', 115200, timeout=2)
 
 
 # MySQL-Datenbankverbindung zu ditsrv1 (192.168.10.30) initialisieren

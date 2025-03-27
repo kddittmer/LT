@@ -1,4 +1,5 @@
 
+
 import serial
 import mysql.connector
 import threading
