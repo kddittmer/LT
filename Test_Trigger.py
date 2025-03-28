@@ -12,8 +12,8 @@ def get_sensor_data(command):
 
 try:
     while True:
-        user_input = input("Gib den Befehl ein (GET_ID1, GET_ID2, GET_ID3, GET_ID4, GET_ALL): ")
-        #if user_input in ["GET_R111", "GET_R221", "GET_R222","GET_R280","GET_ALL"]:
+        user_input = input("Gib den Befehl (GET_ID[1-6] oder GET_ALL) ein: ")
+        #if user_input in ["GET_ID1", "GET_ID2", "GET_ID3","GET_ID4","GET_ID5","GET_ID6", "GET_ALL"]:
         get_sensor_data(user_input)
         #else:
         #    print("Ungültiger Befehl. Bitte versuche es erneut.")
